@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meu Portfólio - Arthur Filipe</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-glass">
+       <div class="container">
+           <a class="navbar-brand" href="#">Arthur Filipe</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                   <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#certificados">Certificados</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+
+   <header class="hero-section d-flex align-items-center justify-content-center text-center">
+       <div class="container">
+           <img src="myfoto.jpg" alt="Foto de Arthur Filipe" class="foto-perfil mb-4">
+           <h1 class="display-4">Arthur Filipe</h1>
+           <p class="lead">Eu sou <span id="typewriter" class="typewriter-text"></span></p>
+           <div class="mt-4">
+               <a href="#projetos" class="btn btn-primary btn-lg rounded-pill px-4 m-2">Meus Projetos</a>
+               <a href="https://github.com/arthurf-byte" target="_blank" class="btn btn-outline-light btn-lg rounded-pill px-4 m-2">
+                   <i class="bi bi-github"></i> GitHub
+               </a>
+           </div>
+       </div>
+   </header>
+
+   <main>
+
+       <section id="sobre" class="container py-5 fade-in-section">
+           <div class="row align-items-center">
+               <div class="col-md-6">
+                   <h2 class="display-5 mb-4">Sobre Mim</h2>
+                   <p class="lead">Olá! Sou um Entusiasta em Desenvolvimento Web, atualmente buscando desenvolver minhas habilidades nesta área</p>
+                   <a href="https://www.linkedin.com/in/arthur-filipe-oliveira-9a267839b" target="_blank" class="btn btn-outline-primary rounded-pill px-4">
+                       <i class="bi bi-linkedin"></i> Meu LinkedIn
+                   </a>
+               </div>
+               <div class="col-md-6 text-center mt-4 mt-md-0">
+                   <img src="myfoto2.jpg" alt="Foto ilustrativa" class="img-fluid rounded-4 shadow-lg">
+               </div>
+           </div>
+       </section>
+
+       <section id="projetos" class="py-5 section-darker fade-in-section">
+           <div class="container">
+               <h2 class="text-center display-5 mb-5">Projetos Recentes</h2>
+               <div class="row g-4">
+
+                   <div class="col-lg-4 col-md-6">
+                       <div class="project-card">
+                           <h3 class="card-title">AppLogin</h3>
+                           <p class="card-text">Um app de login e cadastro com visual moderno (glassmorphism), Bootstrap 5 e autenticação real usando Firebase.</p>
+                           <div class="card-tags">
+                               <span class="badge bg-primary">HTML</span>
+                               <span class="badge bg-info text-dark">CSS</span>
+                               <span class="badge bg-warning text-dark">JavaScript</span>
+                               <span class="badge bg-danger">Firebase</span>
+                           </div>
+                           <a href="https://github.com/arthurf-byte/projeto01.git" target="_blank" class="btn btn-outline-light mt-4">
+                               <i class="bi bi-github"></i> Ver no GitHub
+                           </a>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6">
+                       <div class="project-card">
+                           <h3 class="card-title">Site de Citações</h3>
+                           <p class="card-text">Um site simples e elegante que exibe citações aleatórias. Criado com HTML, CSS e JavaScript puro.</p>
+                           <div class="card-tags">
+                               <span class="badge bg-primary">HTML</span>
+                               <span class="badge bg-info text-dark">CSS</span>
+                               <span class="badge bg-warning text-dark">JavaScript</span>
+                           </div>
+                           <a href="https://github.com/arthurf-byte/citacoes.git" target="_blank" class="btn btn-outline-light mt-4">
+                               <i class="bi bi-github"></i> Ver no GitHub
+                           </a>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6">
+                       <div class="project-card">
+                           <h3 class="card-title">AppInova</h3>
+                           <p class="card-text">Plataforma para organizar projetos, colaborar e otimizar produtividade.</p>
+                           <div class="card-tags">
+                               <span class="badge bg-primary">HTML</span>
+                               <span class="badge bg-info text-dark">CSS</span>
+                               <span class="badge bg-warning text-dark">JavaScript</span>
+                           </div>
+                           <a href="https://github.com/arthurf-byte/AppInova.git" target="_blank" class="btn btn-outline-light mt-4">
+                               <i class="bi bi-github"></i> Ver no GitHub
+                           </a>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6">
+                       <div class="project-card">
+                           <h3 class="card-title">Meu Portfólio Web</h3>
+                           <p class="card-text">Meu currículo digital e portfólio de projetos com dark mode, animações e design responsivo.</p>
+                           <div class="card-tags">
+                               <span class="badge bg-primary">HTML</span>
+                               <span class="badge bg-info text-dark">CSS</span>
+                               <span class="badge bg-warning text-dark">JavaScript</span>
+                           </div>
+                           <a href="https://github.com/arthurf-byte/meuportf-lioweb" target="_blank" class="btn btn-outline-light mt-4">
+                               <i class="bi bi-github"></i> Ver no GitHub
+                           </a>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-md-6">
+                       <div class="project-card">
+                           <h3 class="card-title">Próximo Projeto</h3>
+                           <p class="card-text">Em breve, um novo projeto explorando novas tecnologias.</p>
+                           <div class="card-tags">
+                               <span class="badge bg-secondary">Em breve</span>
+                           </div>
+                           <a class="btn btn-outline-secondary mt-4 disabled">
+                               <i class="bi bi-hourglass-split"></i> Aguarde
+                           </a>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+       </section>
+
+<section id="habilidades" class="container py-5 fade-in-section">
+    <h2 class="text-center display-5 mb-5">Minhas Habilidades</h2>
+    <div class="text-center" id="skill-tags">
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3</span>
+        <span class="skill-tag">JavaScript (ES6+)</span>
+        <span class="skill-tag">Bootstrap 5</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Firebase</span>
+        <span class="skill-tag">Supabase</span>
+        <span class="skill-tag">Metodologias Ágeis</span>
+        <span class="skill-tag">Design Responsivo</span>
+    </div>
+</section>
+
+<section id="certificados" class="py-5 fade-in-section section-darker">
+    <div class="container">
+        <h2 class="text-center display-5 mb-5">Certificados</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert1_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal1" alt="">
+                    <h3 class="card-title">Certificado 01</h3>
+                    <p class="card-text">Participação Oficina/Workshop - Perícia Criminal - A importância da Ciência e da Tecnologia na área forense</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert2_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal2" alt="">
+                    <h3 class="card-title">Certificado 02</h3>
+                    <p class="card-text">Participação II Semana Integrada do Conhecimento do Campus Janaúba</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert3_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal3" alt="">
+                    <h3 class="card-title">Certificado 03</h3>
+                    <p class="card-text">Apresentação de Trabalho - "Biomas do Brasil: diversidade, saberes e tecnologias sociais”.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert4_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal4" alt="">
+                    <h3 class="card-title">Certificado 04</h3>
+                    <p class="card-text">Feira - Feira do Conhecimento</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert5_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal5" alt="">
+                    <h3 class="card-title">Certificado 05</h3>
+                    <p class="card-text">Participação Palestra - Biomas brasileiros</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert6_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal6" alt="">
+                    <h3 class="card-title">Certificado 06</h3>
+                    <p class="card-text">Palestra - Exercício físico na saúde mental</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert7_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal7" alt="">
+                    <h3 class="card-title">Certificado 07</h3>
+                    <p class="card-text">Participação Mostra - Cerimônia de Abertura</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert8_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal8" alt="">
+                    <h3 class="card-title">Certificado 08</h3>
+                    <p class="card-text">Minicurso - Pytorch</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert9_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal9" alt="">
+                    <h3 class="card-title">Certificado 09</h3>
+                    <p class="card-text">Palestra - Cultura oceânica</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert10_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal10" alt="">
+                    <h3 class="card-title">Certificado 10</h3>
+                    <p class="card-text">III Semana Integrada do Conhecimento</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="cert11_page-0001.jpg" class="img-fluid rounded mb-3 certificado-img" data-bs-toggle="modal" data-bs-target="#modal11" alt="">
+                    <h3 class="card-title">Certificado 11</h3>
+                    <p class="card-text">Apresentação Cultural</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="modal1" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert1_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert2_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert3_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert4_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert5_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert6_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal7" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert7_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal8" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert8_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal9" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert9_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal10" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert10_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal11" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-dark">
+            <img src="cert11_page-0001.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+   </main>
+
+   <footer id="contato" class="text-center p-4 section-darker">
+       <p class="lead mb-3">Bora bater um papo?</p>
+       <div class="mb-3">
+           <a href="mailto:afo4@aluno.ifnmg.edu.br" class="text-white-50 mx-2 fs-5">afo4@aluno.ifnmg.edu.br</a>
+       </div>
+       <div>
+           <a href="https://www.linkedin.com/in/arthur-filipe-oliveira-9a267839b" target="_blank" class="btn-social mx-2"><i class="bi bi-linkedin"></i></a>
+           <a href="https://github.com/arthurf-byte" target="_blank" class="btn-social mx-2"><i class="bi bi-github"></i></a>
+       </div>
+       <p class="mt-4 text-white-50">&copy; 2025 Arthur Filipe. Feito com <i class="bi bi-heart-fill text-danger"></i>.</p>
+   </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
+
